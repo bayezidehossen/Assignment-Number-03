@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ga+Maamli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .font-style{
+         font-family: "Fira Sans", serif;
+       }
+    </style>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                commoncolor: '#FFDC26',
+              }
+            }
+          }
+        }
+      </script>
+
+  <script src="https://kit.fontawesome.com/5ab607bd34.js" crossorigin="anonymous"></script>
+
+    <title>Assignment Version-0001</title>
+</head>
+<body class="font-style">
+    
+    <header>
+                      
+                                        <!-- navbar part -->
+
+<div class="navbar  bg-[#FFF9F4]">
+ 
+   <div class="container mx-auto">
+    <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Find a pet</a></li>
+            <li>
+              <a>Breeds</a>
+            </li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl">
+            <img class="w-8 h-8" src="c1-assets/logo-header.png" alt="">
+            <p>Brows <span class="text-yellow-400">4</span>Pets</p>
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Find a pet</a></li>
+          <li>
+            <details>
+              <summary>Breeds</summary>
+              
+            </details>
+          </li>
+          <li><a>Contact us</a></li>
+        </ul>
+      </div>
+
+      
+        <div class="flex ml-10 gap-3 mx-auto">
+            <i class="mt-4 fa-regular fa-bell"></i>
+            <i class="mt-4 fa-solid fa-magnifying-glass"></i>
+            <a class="mt-1 border border-yellow-400 p-2 h-10 rounded-md" href="">Login</a>
+            <a class="btn bg-yellow-400 text-black">Register</a>
+          </div>
+   </div>
+</div>
+  <hr class="border border-black-400 md:invisible ">
+
+
+                                <!-- banner part -->
+
+   
+
+        <div class="container mx-auto pl-10 md:flex flex-rows-2 gap-8">
+
+            <div class="">
+                <h1 class="text-3xl font-bold mt-12 mb-3">Pamper Your Pet, <br>Because They Deserve <br>the Bes</h1>
+                <p class="text-gray-500 mb-3">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <a class="btn bg-yellow-400 text-black text-md">Find a Pet</a>
+            </div>
+            <div class="mb:0 md:mb-10 w-12/12  border-blue-600">
+                <img class="" src="c1-assets/cat-big.png" alt="">
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="container mx-auto">
+                                      
+                                   <!-- categories part -->
+
+    <div class="">
+        <h1 class="text-3xl font-bold mt-20 ml-11 md:ml-7 mb-9">Browse By Categories</h1>
+                 
+                 <!-- card div -->
+
+         <div class="grid grid-cols-2  md:grid-cols-6 md:gap-3">
+
+            <div class="w-10/12 ml-11 md:w-full border border-blue-300 bg-[#F9DF8A]     text-center p-2 rounded-lg md:ml-7 mb-10">
+               <img class="ml-14 md:ml-10 mb-3 p-3 bg-white rounded-full" src="c1-assets/dog-cartoon.png" alt="">
+               <h1 class="font-bold text-xl mb-3">Dog</h1>
+               <p>3 items</p>
+            </div>
+
+            <div class="w-10/12 ml-7 md:w-full border border-blue-300 bg-[#F9DF8A]     text-center p-2 rounded-lg md:ml-7 mb-10">
+                <img class="ml-14 md:ml-10 mb-3 p-3 bg-white rounded-full" src="c1-assets/fish-cartoon.png" alt="">
+                <h1 class="font-bold text-xl mb-3">Dog</h1>
+                <p>3 items</p>
+             </div>
+
+             <div class="w-10/12 ml-11 md:w-full border border-blue-300 bg-[#F9DF8A]     text-center p-2 rounded-lg md:ml-7 mb-10">
+                <img class="ml-14 md:ml-10 mb-3 p-3 bg-white rounded-full" src="c1-assets/cat-cartoon.png" alt="">
+                <h1 class="font-bold text-xl mb-3">Dog</h1>
+                <p>3 items</p>
+             </div>
+
+             
+             <div class="w-10/12 ml-7 md:w-full border border-blue-300 bg-[#F9DF8A]     text-center p-2 rounded-lg md:ml-7 mb-10">
+                <img class="ml-14 md:ml-10 mb-3 p-3 bg-white rounded-full" src="c1-assets/bird-cartoon.png" alt="">
+                <h1 class="font-bold text-xl mb-3">Dog</h1>
+                <p>3 items</p>
+             </div>
+
+             
+             <div class="w-10/12 ml-11 md:w-full border border-blue-300 bg-[#F9DF8A]     text-center p-2 rounded-lg md:ml-7 mb-10">
+                <img class="ml-14 md:ml-10 mb-3 p-3 bg-white rounded-full" src="c1-assets/mouse-cartoon.png" alt="">
+                <h1 class="font-bold text-xl mb-3">Dog</h1>
+                <p>3 items</p>
+             </div>
+ 
+            
+             <div class="w-10/12 ml-7 md:w-full border border-blue-300 bg-[#F9DF8A]     text-center p-2 rounded-lg md:ml-7 mb-10">
+                <img class="ml-14 md:ml-10 mb-3 p-3 bg-white rounded-full" src="c1-assets/rabbit-cartoon.png" alt="">
+                <h1 class="font-bold text-xl mb-3">Dog</h1>
+                <p>3 items</p>
+             </div>
+ 
+
+         </div>
+
+    </div>
+
+
+
+                                  <!-- trending part -->
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
