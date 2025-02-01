@@ -42,68 +42,59 @@
     
     <header>
                       
-                                        <!-- navbar part -->
+                                        
 
-<div class="navbar  bg-[#FFF9F4]">
- 
-   <div class="container mx-auto">
-    <div class="navbar-start">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </div>
-          <ul
-            tabindex="0"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a>Find a pet</a></li>
-            <li>
-              <a>Breeds</a>
-            </li>
-            <li><a>Contact us</a></li>
-          </ul>
-        </div>
-        <a class="btn btn-ghost text-xl">
-            <img class="w-8 h-8" src="c1-assets/logo-header.png" alt="">
-            <p>Brows <span class="text-yellow-400">4</span>Pets</p>
-        </a>
-      </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
-          <li><a>Find a pet</a></li>
-          <li>
-            <details>
-              <summary>Breeds</summary>
-              
-            </details>
-          </li>
-          <li><a>Contact us</a></li>
-        </ul>
-      </div>
-
-      
-        <div class="flex ml-10 gap-3 mx-auto">
-            <i class="mt-4 fa-regular fa-bell"></i>
-            <i class="mt-4 fa-solid fa-magnifying-glass"></i>
-            <a class="mt-1 border border-yellow-400 p-2 h-10 rounded-md" href="">Login</a>
-            <a class="btn bg-yellow-400 text-black">Register</a>
-          </div>
-   </div>
-</div>
-  <hr class="border border-black-400 md:invisible ">
+                                        <div class="navbar bg-[#FFF9F4] conatiner mx-auto">
+                                          <div class="navbar-start">
+                                            <div class="dropdown">
+                                              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                                <svg
+                                                  xmlns="http://www.w3.org/2000/svg"
+                                                  class="h-5 w-5"
+                                                  fill="none"
+                                                  viewBox="0 0 24 24"
+                                                  stroke="currentColor">
+                                                  <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    stroke-width="2"
+                                                    d="M4 6h16M4 12h8m-8 6h16" />
+                                                </svg>
+                                              </div>
+                                              <ul
+                                                tabindex="0"
+                                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                                <li><a class="font-bold">Find a pet</a></li>
+                                                <li><a class="font-bold" href="">Breeds</a></li>
+                                                <li><a class="font-bold">Contact us</a></li>
+                                              </ul>
+                                            </div>
+                                    
+                                              
+                                              <img class="invisible md:visible pl-14" src="c1-assets/logo-header.png" alt="">
+                                            
+                              <a class="invisible md:visible btn btn-ghost text-2xl">Browses<small class="text-yellow-400 text-3xl -ml-2 -mr-2">4</small>Pets</a>
+                                          </div>
+                                          <div class="navbar-center hidden lg:flex">
+                                            <ul class="menu menu-horizontal px-1">
+                                              <li><a class="text-xl font-bold text-gray-500">Find a pet</a></li>
+                                              <li><a class="text-xl font-bold text-gray-500" href="">Breeds</a></li>
+                                              <li><a class="text-xl font-bold text-gray-500">Contact us</a></li>
+                                            </ul>
+                                          </div>
+                                          <div class="invisible md:visible navbar-end">
+                                            <i class="mr-4 fa-regular fa-bell"></i>
+                                            <i class="mr-4 fa-solid fa-magnifying-glass"></i>
+                                            <a class="text-gray-500 border border-yellow-200 py-2 px-3 rounded-lg mr-3" href="">Login</a>
+                                            <a class="btn bg-yellow-400 p-1rounded-lg mr-0">Register</a>
+                                            <img class="visible mr-3 md:invisible" src="c1-assets/logo-header.png" alt="">
+                                          </div>
+                                        </div>
+                                  
+                                  <hr class="border border-black-400 md:invisible ">
 
 
-                                <!-- banner part -->
+                               
 
 
 
@@ -124,12 +115,12 @@
 
         
                                       
-                                   <!-- categories part -->
+                                   
 
     <div class="container mx-auto">
         <h1 class="text-3xl font-bold mt-20 ml-8 md:ml-7 mb-9">Browse By Categories</h1>
                  
-                 <!-- card div -->
+                 
 
          <div class="grid grid-cols-2  md:grid-cols-6 md:gap-3">
 
@@ -179,7 +170,7 @@
 
 
 
-                                  <!-- trending part -->
+                                 
 <div class="bg-[#FFF9F4] pb-20 mb-30">
 
   
@@ -189,7 +180,7 @@
       
    <div class="grid md:flex gap-5">
 
-     <div class="ml-4 md:ml-3 w-[430px] h-[400px]  mt-7 p-4 flex rounded-lg  bg-[#F9DF8A]">
+     <div class="ml-9 md:ml-3 w-[430px] h-[400px]  mt-7 p-4 flex rounded-lg  bg-[#F9DF8A]">
        <div class="relative pt-5">
           <h1 class="text-3xl font-bold mb-3">T-Shirt For pet</h1>
           <p class="text-gray-500">Discover a world for treats,toys,and <br>essentials handpicked for</p>
@@ -200,11 +191,11 @@
        </div>
   </div> 
 
-                    <!-- card part -->
+                    
 
   <div class="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4">
   
-    <div class="ml-4 md:ml-0 bg-base-100 w-[190px] mt-7 border rounded-lg shadow-xl flex gap-7 p-3">
+    <div class="ml-9 md:ml-0 bg-base-100 w-[190px] mt-7 border rounded-lg shadow-xl flex gap-7 p-3">
       <div class="pt-3">
         <img class="visible md:invisible" src="c1-assets/pet-couch.png" alt="">
           <img class="invisible md:visible -mt-12" src="c1-assets/dog-cartoon.png" alt="">
@@ -235,7 +226,7 @@
   </div>
 </div>
 
-<div class="ml-4 md:ml-0 bg-base-100 w-[190px] mt-7 border rounded-lg shadow-xl flex gap-7 p-3">
+<div class="ml-9 md:ml-0 bg-base-100 w-[190px] mt-7 border rounded-lg shadow-xl flex gap-7 p-3">
   <div class="pt-3">
     <img class="visible md:invisible" src="c1-assets/pet-couch.png" alt="">
       <img class="invisible md:visible -mt-12" src="c1-assets/bird-cartoon.png" alt="">
@@ -266,7 +257,7 @@
                </div>
           </div>
 
-          <div class="ml-4 md:ml-0 bg-base-100 w-[190px] mt-4 border rounded-lg shadow-xl flex gap-7 p-3">
+          <div class="ml-9 md:ml-0 bg-base-100 w-[190px] mt-4 border rounded-lg shadow-xl flex gap-7 p-3">
             <div class="pt-3">
               <img class="visible md:invisible" src="c1-assets/pet-couch.png" alt="">
               <img class="invisible md:visible -mt-12" src="c1-assets/bird-cartoon.png" alt="">
@@ -300,7 +291,7 @@
 
 
 
-   <div class="ml-4 md:ml-0 bg-base-100 w-[190px] mt-4 border rounded-lg shadow-xl flex gap-7 p-3">
+   <div class="ml-9 md:ml-0 bg-base-100 w-[190px] mt-4 border rounded-lg shadow-xl flex gap-7 p-3">
     <div class="pt-3">
       <img class="visible md:invisible" src="c1-assets/pet-couch.png" alt="">
       <img class="invisible md:visible -mt-12" src="c1-assets/fish-cartoon.png" alt="">
@@ -357,13 +348,13 @@
 </div>
 
 
-                                   <!-- low prize part -->
+                                 
 
 
 <div class="container mx-auto">
-  <h1 class="ml-4 text-3xl font-bold mt-10 mb-5">Everyday low Price</h1>
+  <h1 class="ml-8 md:ml-4 text-3xl font-bold mt-10 mb-5">Everyday low Price</h1>
 
-              <div class="mb-20 md:invisible absolute  ml-4 md:ml-3 w-[430px] h-[505px]  mt-5 p-7 flex rounded-lg bg-gradient-to-l from-[#ACD2FD]
+              <div class="mb-20 ml-9 md:invisible absolute  ml-4 md:ml-3 w-[430px] h-[505px]  mt-5 p-7 flex rounded-lg bg-gradient-to-l from-[#ACD2FD]
               to-[#F8CCFB]">
                 <div class="relative pt-5">
                    <h1 class="text-3xl font-bold mb-3">Pet Grooming Mitt</h1>
@@ -391,7 +382,7 @@
            
           <br><br><br><br><br>
                
-          <div class="ml-4 pt-16 md:ml-3 w-[430px] h-[505px] p-4 flex rounded-lg  bg-gradient-to-l from-[#F9DF8A]
+          <div class="ml-9 pt-16 md:ml-3 w-[430px] h-[505px] p-4 flex rounded-lg  bg-gradient-to-l from-[#F9DF8A]
           to-[#FFF9F4]">
             <div class="relative pt-5">
                <h1 class="text-3xl font-bold mb-3">T-Shirt for Dogs</h1>
@@ -415,7 +406,7 @@
        </div>
 </div>
     
-                                       <!-- news part -->
+                                      
 
        <div class="container mx-auto ml-3 mb-10 md:-mb-10 z-40">
 
@@ -440,7 +431,7 @@
 
 
     </main>
-                                       <!-- footer part -->
+                                       
 
 
     <footer class="bg-[#FFDC2680] h-auto w-auto relative md:-z-10">
